@@ -3,7 +3,6 @@ import ClickSpark from '@/components/organism/ClickSpark/ClickSpark';
 import LetterGlitch from '@/components/organism/LetterGlitch/LetterGlitch';
 import ShinyText from '@/components/organism/ShinyText/ShinyText';
 import SkillLangCard from '@/components/organism/SkillLangCard/SkillLangCard';
-import SplitText from '@/components/organism/SplitText/SplitText';
 import { StatusBadge } from '@/components/organism/status-badge';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Github, Instagram, Linkedin, Twitter } from 'lucide-react';
@@ -19,11 +18,15 @@ const SectionHome = () => {
           <h1 className="text-6xl font-semibold mb-6 mt-10">
             Hello, I&apos;m Jey
           </h1>
-          <SplitText
-            text="Talented software development professional with experience in Web
-            and Mobile applications also work with React Ecosystem."
+          {/* <SplitText
+            text=""
             className="text-[16px] text-white/70 font-light mt-4"
-          />
+          /> */}
+
+          <p className="text-[16px] text-white/70 font-light mt-4">
+            Talented software development professional with experience in Web
+            and Mobile applications also work with React Ecosystem.
+          </p>
 
           <div className="flex gap-4 mt-20">
             <ClickSpark>

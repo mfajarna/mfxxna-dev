@@ -32,8 +32,8 @@ export function AppNavbar() {
       threshold: 0.5, // Adjust this value as needed
     };
 
-    const observerCallback = (entries) => {
-      entries.forEach((entry) => {
+    const observerCallback = (entries: any) => {
+      entries.forEach((entry: any) => {
         if (entry.isIntersecting) {
           setActiveSection(entry.target.id);
         }
